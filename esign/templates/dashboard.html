@@ -1,0 +1,46 @@
+{% extends 'main.html'  %}
+
+{% block content %}
+
+{%  include 'dash_status.html' %}
+
+<br>
+
+<div class="row">
+	<div class="col-md-5">
+		<h5>AREA:</h5>
+		<hr>
+		<div class="card card-body">
+			<a class="btn btn-primary  btn-sm btn-block" href="">Create User</a>
+			<table class="table table-sm">
+				<tr>
+					<th></th>
+					<th>User</th>
+					<th>E-signs</th>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+
+	<div class="col-md-7">
+		<h5>LAST 5 Change requests</h5>
+		<hr>
+		<div class="card card-body" >
+			<a class="btn btn-primary  btn-sm btn-block" href="">Create E-sign </a>
+			<table class="table table-sm">
+				<tr>
+					<th>E-sign</th>
+					<th>Date requested</th>
+					<th>Status</th>
+					<th>Update</th>
+					<th>Remove</th>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+
+</div>
+
+{% endblock %}

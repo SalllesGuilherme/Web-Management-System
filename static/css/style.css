@@ -1,0 +1,38 @@
+#logo{
+	}
+
+	body{
+		background-color: #ebeff5;
+	}
+
+	#bg{
+
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: top;
+	}
+
+	#e-total{
+		background-color: #66757F;
+	}
+
+
+	#e-approval{
+		background-color: #ccd6dd;
+	}
+
+	#e-validation{
+		background-color: #ffa500;
+    }
+
+	#e-bar{
+		background-color: #ccd6dd;
+	}
+
+    .myLogo{
+    padding: 7px
+    }
+
+
+

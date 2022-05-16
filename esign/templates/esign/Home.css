@@ -1,0 +1,102 @@
+ .u-section-1 {
+  background-image: url("images/ContiSergio.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 852px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 872px;
+  min-height: 333px;
+  margin: 452px 96px 60px auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 5px 30px 0;
+}
+
+.u-section-1 .u-icon-1 {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Biryani;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 30px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  margin: 25px 40px 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.125rem;
+  margin: 10px 40px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 765px;
+  }
+
+  .u-section-1 .u-group-1 {
+    margin-right: 68px;
+    margin-bottom: 96px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 711px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 720px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 533px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 336px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+}
